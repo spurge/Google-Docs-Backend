@@ -52,6 +52,7 @@ Zend_Loader::loadClass( 'Zend_Http_Client' );
 Zend_Loader::loadClass( 'Zend_Gdata' );
 Zend_Loader::loadClass( 'Zend_Gdata_ClientLogin' );
 Zend_Loader::loadClass( 'Zend_Gdata_Docs' );
+Zend_Loader::loadClass( 'Zend_Gdata_Spreadsheets' );
 require_once( dirname( __FILE__ ) . '/google-docs-backend.class.php' );
 
 $google_docs_backend = new Google_Docs_Backend();
